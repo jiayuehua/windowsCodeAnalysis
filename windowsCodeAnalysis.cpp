@@ -1,4 +1,4 @@
-﻿// windowsCodeAnalysis.cpp : Defines the entry point for the application.
+// windowsCodeAnalysis.cpp : Defines the entry point for the application.
 //
 
 #include "windowsCodeAnalysis.h"
@@ -10,9 +10,15 @@ int foo(int a, int b)
 	return 3;
 }
 
+struct S {
+	int i ;
+};
+
 int main()
 {
 	cout << "Hello CMake." << endl;
   foo(2,3);
+	S s;
+	cout<< s.i << endl;
 	return 0;
 }
