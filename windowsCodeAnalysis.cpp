@@ -19,6 +19,9 @@ int main()
 	cout << "Hello CMake." << endl;
   foo(2,3);
 	S s;
+	S *ps=new S;
+	delete ps;
+	cout<<ps->i<<endl;
 	cout<< s.i << endl;
 	return 0;
 }
