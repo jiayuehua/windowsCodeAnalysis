@@ -23,7 +23,7 @@ jobs:
       fail-fast: false
       matrix:
         os: [ windows-latest ]
-        cmake_preset: [ x64-debug, x64-release ]
+        cmake_preset: [ debug, release ]
 
     steps:
       - name: Checkout repository
