@@ -2,7 +2,7 @@
 //
 
 #include "windowsCodeAnalysis.h"
-
+#include <vector>
 using namespace std;
 
 int foo(int a, int b)
